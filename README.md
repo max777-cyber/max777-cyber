@@ -13,6 +13,10 @@
   </a>
 </p>
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=max777-cyber&color=blue&style=flat-square&label=Visualizações+do+perfil" />
+</p>
+
 ---
 
 ## 🙋 Sobre mim
@@ -44,15 +48,6 @@
 |---|---|---|
 | [Gerenciador de Tarefas](https://github.com/max777-cyber/Gerenciador-Tarefas) | Sistema de gerenciamento de tarefas com POO | Java |
 | [Calculadora de IAC](https://github.com/max777-cyber/IAC) | Calcula o Índice de Adiposidade Corporal com validação de entrada | Python |
-
----
-
-## 📊 Estatísticas do GitHub
-
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=max777-cyber&show_icons=true&theme=dark&hide_border=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=max777-cyber&layout=compact&theme=dark&hide_border=true" />
-</p>
 
 ---
 
