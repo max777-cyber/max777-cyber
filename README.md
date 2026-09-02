@@ -50,7 +50,10 @@
 | Projeto | Descrição | Tecnologias |
 |---|---|---|
 | [🛍️ Aura Outfit](https://github.com/max777-cyber/aura-outfit) | **Projeto final de curso** — e-commerce de moda com autenticação Google, pagamento via Mercado Pago e deploy no Railway | Java · Spring Boot · OAuth2 · Docker · PostgreSQL |
+| [🎮 Jogo da Velha](https://github.com/max777-cyber/jogo-da-velha) | Jogo da Velha com lógica completa, aplicando POO e estruturas de dados | Java |
+| [🏧 Sistema de Caixa Eletrônico](https://github.com/max777-cyber/SDE) | Simulação de caixa eletrônico com operações bancárias e validações | Java |
 | [✅ Gerenciador de Tarefas](https://github.com/max777-cyber/Gerenciador-Tarefas) | Sistema de gerenciamento de tarefas aplicando conceitos de POO | Java |
+| [🧩 Beecrowd](https://github.com/max777-cyber/beecrowd) | Soluções de problemas de algoritmos — um exercício por dia para evoluir | Java |
 | [📊 Calculadora de IAC](https://github.com/max777-cyber/IAC) | Calcula o Índice de Adiposidade Corporal com validação de entrada | Python |
 
 ---
