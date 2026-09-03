@@ -8,14 +8,14 @@
 <a href="https://www.linkedin.com/in/maximillian-benajamin-vicente-678097381/">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>a>
-  <a href="mailto:maximillianben100@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>a>
+    <a href="mailto:MaxiB.vicente@outlook.com">
+            <img src="https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" />
+    </a>a>
 </p>p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=max777-cyber&color=blue&style=flat-square&label=Visualizações+do+perfil" />
-</p>p>
+</p>p>h
 
 ---
 
