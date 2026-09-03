@@ -13,9 +13,7 @@
     </a>a>
 </p>p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=max777-cyber&color=blue&style=flat-square&label=Visualizações+do+perfil" />
-</p>p>h
+
 
 ---
 
