@@ -46,8 +46,8 @@ footer a:hover{opacity:1}
 <body>
 <header>
   <p class="eyebrow">github.com / max777-cyber</p>
-  <h1>Contribuições <span>2025–2026</span></h1>
-  <p class="sub">Maximillian Benjamin Vicente · São Bernardo do Campo, SP</p>
+  <h1>Contribuicoes <span>2025-2026</span></h1>
+  <p class="sub">Maximillian Benjamin Vicente - Sao Bernardo do Campo, SP</p>
 </header>
 <div class="graph-wrapper">
   <div class="month-row" id="monthRow"></div>
@@ -81,7 +81,7 @@ footer a:hover{opacity:1}
 </footer>
 <div class="tooltip" id="tooltip"><div class="tip-count" id="tipCount"></div><div class="tip-date" id="tipDate"></div></div>
 <script>
-const rawActivity={'2025-12-15':2,'2025-12-16':3,'2025-12-17':2,'2025-12-22':2,'2025-12-23':1,'2026-01-05':2,'2026-01-06':3,'2026-01-07':4,'2026-01-08':3,'2026-01-09':2,'2026-01-12':3,'2026-01-13':4,'2026-01-14':3,'2026-01-15':2,'2026-01-16':1,'2026-01-19':2,'2026-01-20':3,'2026-01-21':2,'2026-01-26':1,'2026-01-27':2,'2026-02-09':1,'2026-02-10':2,'2026-03-02':1,'2026-03-18':1,'2026-03-25':1,'2026-04-05':1,'2026-04-06':2,'2026-04-10':2,'2026-04-11':3,'2026-04-12':2,'2026-08-24':2,'2026-08-25':3,'2026-08-26':3,'2026-08-31':2,'2026-09-01':2,'2026-09-02':3,'2026-09-07':3,'2026-09-08':4};
+const rawActivity={'2025-12-15':2,'2025-12-16':2,'2025-12-17':1,'2025-12-22':2,'2025-12-23':1,'2026-01-05':2,'2026-01-06':3,'2026-01-07':4,'2026-01-08':3,'2026-01-09':2,'2026-01-12':3,'2026-01-13':3,'2026-01-14':2,'2026-01-15':2,'2026-01-16':1,'2026-01-19':3,'2026-01-20':2,'2026-02-09':1,'2026-02-10':2,'2026-02-16':1,'2026-02-23':1,'2026-03-02':1,'2026-03-18':1,'2026-03-25':1,'2026-04-05':1,'2026-04-06':2,'2026-04-11':2,'2026-04-12':1,'2026-05-04':1,'2026-08-24':2,'2026-08-25':3,'2026-08-26':2,'2026-08-31':2,'2026-09-01':2,'2026-09-02':3,'2026-09-07':3,'2026-09-08':4};
 const MONTHS=['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'];
 function fmt(d){return d.toISOString().slice(0,10)}
 function fmtPT(d){return d.toLocaleDateString('pt-BR',{weekday:'long',day:'numeric',month:'long',year:'numeric'})}
@@ -102,19 +102,22 @@ weeks.forEach(week=>{
   week.forEach(d=>{
     const cell=document.createElement('div');cell.className='cell';
     const key=fmt(d);const lv=rawActivity[key]||0;
-    const cnt=lv===0?0:lv===1?1:lv===2?3:lv===3?6:12;
+    const cnt=lv;
     cell.dataset.level=lv;
     if(d>today){cell.style.opacity='.15';cell.style.pointerEvents='none'}
     else{total+=cnt;if(lv>0)daysOn++}
-    cell.addEventListener('mouseenter',()=>{tipCount.textContent=cnt===0?'Sem contribuições':cnt+' contribuiç'+(cnt===1?'ão':'ões');tipDate.textContent=fmtPT(d);tooltip.style.display='block'});
+    cell.addEventListener('mouseenter',()=>{tipCount.textContent=cnt===0?'Sem contribuicoes':cnt+' contribuicao';tipDate.textContent=fmtPT(d);tooltip.style.display='block'});
     cell.addEventListener('mousemove',e=>{tooltip.style.left=(e.clientX+14)+'px';tooltip.style.top=(e.clientY-40)+'px'});
     cell.addEventListener('mouseleave',()=>{tooltip.style.display='none'});
     col.appendChild(cell);
   });
   grid.appendChild(col);
 });
+const sortedKeys=Object.keys(rawActivity).sort();
+let streak=1,maxStreak=1;
+for(let i=1;i<sortedKeys.length;i++){const diff=(new Date(sortedKeys[i])-new Date(sortedKeys[i-1]))/86400000;streak=diff===1?streak+1:1;if(streak>maxStreak)maxStreak=streak;}
 const statsEl=document.getElementById('stats');
-[{v:total,l:'Contribuições'},{v:daysOn,l:'Dias ativos'},{v:'13 dias',l:'Streak máximo'},{v:Object.keys(rawActivity).length,l:'Commits'}].forEach(item=>{
+[{v:total,l:'Contribuicoes'},{v:daysOn,l:'Dias ativos'},{v:maxStreak+' dias',l:'Streak maximo'},{v:Object.keys(rawActivity).length,l:'Commits'}].forEach(item=>{
   const card=document.createElement('div');card.className='stat-card';
   card.innerHTML='<div class="stat-value">'+item.v+'</div><div class="stat-label">'+item.l+'</div>';
   statsEl.appendChild(card);
