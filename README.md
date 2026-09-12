@@ -1,4 +1,4 @@
-<h1 align="center">Olá, eu sou o Maximillian! 👋</h1>
+<h1 align="center">Olá, eu sou o Maximillian! </h1>
 
 <p align="center">
 <b>Estudante de TI | Desenvolvedor Java em formação | São Bernardo do Campo, SP</b>
@@ -15,18 +15,18 @@
 
 ---
 
-## 🙋 Sobre mim
+##  Sobre mim
 
-- 📚 Estudante de **Análise e Desenvolvimento de Sistemas** na Cruzeiro do Sul + **Técnico em TI** no CEFSA (São Bernardo do Campo)
-- ☕ Foco em **Desenvolvimento de Software com Java** e Programação Orientada a Objetos
-- 🚀 Projeto destaque: e-commerce completo com **Spring Boot + OAuth2 + Mercado Pago** em produção
-- 🌱 Aprendendo: **Java · Spring Boot · Docker · PostgreSQL · Git · HTML · CSS · Arquitetura de Software · CI/CD**
-- 🎯 Objetivo: ingressar no mercado de tecnologia como desenvolvedor júnior
-- 📍 Localização: São Bernardo do Campo — SP
+Estudante de **Análise e Desenvolvimento de Sistemas** na Cruzeiro do Sul + **Técnico em TI** no CEFSA (São Bernardo do Campo)
+Foco em **Desenvolvimento de Software com Java** e Programação Orientada a Objetos
+Projeto destaque: e-commerce completo com **Spring Boot + OAuth2 + Mercado Pago** em produção
+Aprendendo: **Java · Spring Boot · Docker · PostgreSQL · Git · HTML · CSS · Arquitetura de Software · CI/CD**
+Objetivo: ingressar no mercado de tecnologia como desenvolvedor júnior
+Localização: São Bernardo do Campo — SP
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas
+## Tecnologias e Ferramentas
 
 <p>
 <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
@@ -45,16 +45,16 @@
 
 ---
 
-## 📌 Projetos em Destaque
+##  Projetos em Destaque
 
 | Projeto | Descrição | Tecnologias |
 |---|---|---|
-| [🛍️ Aura Outfit](https://github.com/max777-cyber/aura-outfit) | **Projeto final de curso** — e-commerce de moda com autenticação Google, pagamento via Mercado Pago e deploy no Railway | Java · Spring Boot · OAuth2 · Docker · PostgreSQL |
-| [🎮 Jogo da Velha](https://github.com/max777-cyber/jogo-da-velha) | Jogo da Velha com lógica completa, aplicando POO e estruturas de dados | Java |
-| [🏧 Sistema de Caixa Eletrônico](https://github.com/max777-cyber/SDE) | Simulação de caixa eletrônico com operações bancárias e validações | Java |
-| [✅ Gerenciador de Tarefas](https://github.com/max777-cyber/Gerenciador-Tarefas) | Sistema de gerenciamento de tarefas aplicando conceitos de POO | Java |
-| [🧩 Beecrowd](https://github.com/max777-cyber/beecrowd) | Soluções de problemas de algoritmos — um exercício por dia para evoluir | Java |
-| [📊 Calculadora de IAC](https://github.com/max777-cyber/IAC) | Calcula o Índice de Adiposidade Corporal com validação de entrada | Python |
+| [Aura Outfit](https://github.com/max777-cyber/aura-outfit) | **Projeto final de curso** — e-commerce de moda com autenticação Google, pagamento via Mercado Pago e deploy no Railway | Java · Spring Boot · OAuth2 · Docker · PostgreSQL |
+| [Jogo da Velha](https://github.com/max777-cyber/jogo-da-velha) | Jogo da Velha com lógica completa, aplicando POO e estruturas de dados | Java |
+| [Sistema de Caixa Eletrônico](https://github.com/max777-cyber/SDE) | Simulação de caixa eletrônico com operações bancárias e validações | Java |
+| [Gerenciador de Tarefas](https://github.com/max777-cyber/Gerenciador-Tarefas) | Sistema de gerenciamento de tarefas aplicando conceitos de POO | Java |
+| [Beecrowd](https://github.com/max777-cyber/beecrowd) | Soluções de problemas de algoritmos — um exercício por dia para evoluir | Java |
+| [Calculadora de IAC](https://github.com/max777-cyber/IAC) | Calcula o Índice de Adiposidade Corporal com validação de entrada | Python |
 
 ---
 
