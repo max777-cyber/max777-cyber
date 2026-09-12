@@ -58,4 +58,4 @@ Localização: São Bernardo do Campo — SP
 
 ---
 
-<p align="center">💼 Aberto a oportunidades de estágio e trainee em desenvolvimento de software!</p>
+<p align="center"> Aberto a oportunidades de estágio e trainee em desenvolvimento de software!</p>
