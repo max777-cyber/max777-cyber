@@ -8,6 +8,9 @@
 <a href="https://www.linkedin.com/in/maximillian-benajamin-vicente-678097381/">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
+<a href="https://max777-cyber.github.io/portfolio/">
+<img src="https://img.shields.io/badge/Portfólio-8A2BE2?style=for-the-badge&logo=githubpages&logoColor=white" />
+</a>
 <a href="mailto:MaxiB.vicente@outlook.com">
 <img src="https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" />
 </a>
@@ -20,7 +23,8 @@
 Estudante de **Análise e Desenvolvimento de Sistemas** na Cruzeiro do Sul + **Técnico em TI** no CEFSA (São Bernardo do Campo)
 Foco em **Desenvolvimento de Software com Java** e Programação Orientada a Objetos
 Projeto destaque: e-commerce completo com **Spring Boot + OAuth2 + Mercado Pago** em produção
-Aprendendo: **Java · Spring Boot · Docker · PostgreSQL · Git · HTML · CSS · Arquitetura de Software · CI/CD**
+Aprendendo: **Java · Spring Boot · Spring Security · Python · Docker · PostgreSQL · MySQL · Git · HTML · CSS · Testes (JUnit 5 / Mockito) · Arquitetura de Software · CI/CD**  
+Também estudo: **SQL Server · Redes (TCP/UDP, protocolos, ping/traceroute) · APIs e integrações**
 Objetivo: ingressar no mercado de tecnologia como desenvolvedor júnior
 Localização: São Bernardo do Campo — SP
 
@@ -31,13 +35,20 @@ Localização: São Bernardo do Campo — SP
 <p>
 <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
 <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" />
+<img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white" />
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
 <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+<img src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" />
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
+<img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white" />
+<img src="https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white" />
 <img src="https://img.shields.io/badge/CI%2FCD-0A0A0A?style=for-the-badge&logo=github-actions&logoColor=white" />
 <img src="https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white" />
 <img src="https://img.shields.io/badge/Arquitetura_de_Software-6C757D?style=for-the-badge&logo=buffer&logoColor=white" />
@@ -49,12 +60,14 @@ Localização: São Bernardo do Campo — SP
 
 | Projeto | Descrição | Tecnologias |
 |---|---|---|
-| [Aura Outfit](https://github.com/max777-cyber/aura-outfit) | **Projeto final de curso** — e-commerce de moda com autenticação Google, pagamento via Mercado Pago e deploy no Railway | Java · Spring Boot · OAuth2 · Docker · PostgreSQL |
+| [Aura Outfit](https://github.com/max777-cyber/aura-outfit) | **Projeto final de curso** — e-commerce de moda com autenticação Google, pagamento via Mercado Pago e deploy no Railway. Em produção, resolvi problemas de CORS, URLs fixas em localhost, perda de sessão (Spring Session JDBC) e redirect do OAuth2 | Java · Spring Boot · OAuth2 · Docker · PostgreSQL |
 | [Pulse Music](https://github.com/max777-cyber/Pulse-music) | **Em desenvolvimento** — plataforma de streaming de música com player persistente, playlists, busca, recomendações e login com Google | Java · Spring Boot · PostgreSQL · Redis · Kafka · Docker · JavaScript |
+| ISA — A Jornada do Aprovado *(repo privado)* | **TCC** — jogo de plataforma 2D educativo para preparação para o ENEM | Python · Pygame |
+| ParaguAI | SaaS de comparação de preços entre Brasil, Paraguai e Argentina, com backend de webhooks integrado ao Instagram Messaging API, NVIDIA NIM e OLX Chat API | Python · FastAPI |
 | [Jogo da Velha](https://github.com/max777-cyber/jogo-da-velha) | Jogo da Velha com lógica completa, aplicando POO e estruturas de dados | Java |
 | [Sistema de Caixa Eletrônico](https://github.com/max777-cyber/SDE) | Simulação de caixa eletrônico com operações bancárias e validações | Java |
 | [Gerenciador de Tarefas](https://github.com/max777-cyber/Gerenciador-Tarefas) | Sistema de gerenciamento de tarefas aplicando conceitos de POO | Java |
-| [Beecrowd](https://github.com/max777-cyber/beecrowd) | Soluções de problemas de algoritmos — um exercício por dia para evoluir | Java |
+| [Beecrowd](https://github.com/max777-cyber/beecrowd) | Soluções de problemas de algoritmos — um exercício por dia para evoluir | Java · Python |
 | [Calculadora de IAC](https://github.com/max777-cyber/IAC) | Calcula o Índice de Adiposidade Corporal com validação de entrada | Python |
 
 ---
